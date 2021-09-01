@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2055D5B26DF05C90031462D /* TextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2055D5926DF05C90031462D /* TextViewCell.swift */; };
+		F2055D5C26DF05C90031462D /* TextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2055D5A26DF05C90031462D /* TextViewCell.xib */; };
+		F2055D5E26DF06520031462D /* CustomCellRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2055D5D26DF06520031462D /* CustomCellRegistrable.swift */; };
+		F2055D6026DF0A6B0031462D /* DTInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2055D5F26DF0A6B0031462D /* DTInputAccessoryView.swift */; };
 		F2450B3C26DE2B8900DDF96A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2450B3B26DE2B8900DDF96A /* AppDelegate.swift */; };
 		F2450B3E26DE2B8900DDF96A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2450B3D26DE2B8900DDF96A /* SceneDelegate.swift */; };
 		F2450B4026DE2B8900DDF96A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2450B3F26DE2B8900DDF96A /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2055D5926DF05C90031462D /* TextViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewCell.swift; sourceTree = "<group>"; };
+		F2055D5A26DF05C90031462D /* TextViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewCell.xib; sourceTree = "<group>"; };
+		F2055D5D26DF06520031462D /* CustomCellRegistrable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellRegistrable.swift; sourceTree = "<group>"; };
+		F2055D5F26DF0A6B0031462D /* DTInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTInputAccessoryView.swift; sourceTree = "<group>"; };
 		F2450B3826DE2B8900DDF96A /* TextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2450B3B26DE2B8900DDF96A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2450B3D26DE2B8900DDF96A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +64,10 @@
 		F2450B3A26DE2B8900DDF96A /* TextViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F2055D5F26DF0A6B0031462D /* DTInputAccessoryView.swift */,
+				F2055D5926DF05C90031462D /* TextViewCell.swift */,
+				F2055D5A26DF05C90031462D /* TextViewCell.xib */,
+				F2055D5D26DF06520031462D /* CustomCellRegistrable.swift */,
 				F2450B3B26DE2B8900DDF96A /* AppDelegate.swift */,
 				F2450B3D26DE2B8900DDF96A /* SceneDelegate.swift */,
 				F2450B3F26DE2B8900DDF96A /* ViewController.swift */,
@@ -125,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2450B4826DE2B8A00DDF96A /* LaunchScreen.storyboard in Resources */,
+				F2055D5C26DF05C90031462D /* TextViewCell.xib in Resources */,
 				F2450B4526DE2B8A00DDF96A /* Assets.xcassets in Resources */,
 				F2450B4326DE2B8900DDF96A /* Main.storyboard in Resources */,
 			);
@@ -137,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2055D6026DF0A6B0031462D /* DTInputAccessoryView.swift in Sources */,
 				F2450B4026DE2B8900DDF96A /* ViewController.swift in Sources */,
+				F2055D5E26DF06520031462D /* CustomCellRegistrable.swift in Sources */,
+				F2055D5B26DF05C90031462D /* TextViewCell.swift in Sources */,
 				F2450B3C26DE2B8900DDF96A /* AppDelegate.swift in Sources */,
 				F2450B3E26DE2B8900DDF96A /* SceneDelegate.swift in Sources */,
 			);
