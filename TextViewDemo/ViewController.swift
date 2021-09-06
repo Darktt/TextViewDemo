@@ -100,10 +100,5 @@ extension ViewController: TextViewCellDelegate
     public func cellTextDidChange(_ cell: TextViewCell)
     {
         self.tableView.performBatchUpdates(nil, completion: nil)
-        
-        self.accessoryView.subviews.forEach {
-            
-            print("\(type(of: $0)): \($0.frame.height)")
-        }
     }
 }
